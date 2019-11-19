@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana;
+}
+header{
+	position: fixed;
+	top:0;
+	z-index: 1;
+	width: 100%;
+}
+.navbar-header{
+	float:right;
+}
+.navbar-header:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.navbar-header ul{
+	margin:0;
+	padding-right: 20px;
+	list-style: none;
+}
+.navbar-header li{
+	margin-left: 70px;
+	padding-top: 20px;
+	display: inline-block;
+	position: relative;
+}
+.navbar-header a{
+	text-decoration: none;
+	font-size:20px;
+	text-transform: uppercase;
+	color:#2f3542;
+}
+.navbar-header a:hover{
+	text-decoration: none;
+}
+.navbar-header a:active{
+	text-decoration: none;
+}
+.navbar-header a:focus{
+	text-decoration: none;
+	color:#2f3542;
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+}
+
+#sec-1 h1{
+	font-size:68px;
+	top:35%;
+	left:39%;
+	transform: translate(39%,35%);
+	color: #2f3542;
+	position: absolute;
+}
+#sec-1 h3{
+	font-size: 25px;
+	font-style: italic;
+	top:50%;
+	left:25%;
+	transform: translate(25%,50%);
+	color: #747d8c;
+	position: absolute;
+}
+#sec-1 img{
+	margin-top: 3%;
+	width: 40%;
+	height: 91%;
+	float: left;
+	
+}
+#sec-1::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+#sec-2{
+background-image: linear-gradient(to bottom, #ffffff, #fefbfd, #fff6f6, #fff2ec, #f7f1e3);
+}
+#sec-2 div{
+	float: left;
+	padding-left: 25px;
+}
+#sec-2 h3{
+	margin-top:250px;	
+	margin-left: 40px;
+	color: #2f3542;
+	font-size:22px;
+}
+#sec-2 form{
+margin-top:30px;
+margin-left: 40px;	
+}
+
+#sec-2 img{
+	float:right;
+	height:95%;
+	margin-right: 45px;
+}
+#sec-2:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+#sec-2 input{
+	border-color: #535c68;
+	border-width: 1px;
+	border-style: solid;
+	display: block;
+	height: 30px;
+	width: 300px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	padding: 5px;
+}
+.container{
+	width: 90%;
+	display: flex;
+	margin:0 auto;
+
+}
+.column {
+
+	width: 25%;
+	height: 60vh;
+	margin:5px;
+	text-align: center;
+}
+.column h3,h4,h5{
+	color:#15203E;
+}
+.column h4{
+	font-style: italic;
+}
+.img-box{
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+ .img-box img{
+ 	width: 70%;
+ 	height: 80%;
+ 	border-radius: 50%;
+ }
+ #sec-3{
+ background-color:#f7f1e3;
+background-image: url(../Images/chimneys.png);
+background-repeat: repeat-x;
+ }
+ #col-2{
+ 	margin-top: 85px;
+ }
+ #col-4{
+ 	margin-top: 55px;
+ }
